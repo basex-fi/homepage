@@ -23,7 +23,7 @@ export const Hero = () => {
         px={{ base: "10%", lg: "0" }}
         flex={1}
       >
-        <Text fontSize={{ base: "3xl", md: "5xl" }} fontWeight={500}>
+        <Text fontSize={{ base: "4xl", md: "5xl" }} fontWeight={500}>
           Making your Swap experience{" "}
           <Mark bg="#ccd2fd" px={2}>
             Easier
