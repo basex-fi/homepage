@@ -1,4 +1,4 @@
-import { Flex, Box, Image, Text, Button, Icon } from "@chakra-ui/react";
+import { Flex, Box, Image, Text, Button, Icon, Mark } from "@chakra-ui/react";
 import styled from "styled-components";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
@@ -23,8 +23,15 @@ export const Hero = () => {
         px={{ base: "10%", lg: "0" }}
         flex={1}
       >
-        <Text fontSize="5xl" fontWeight={500}>
-          Making Your Swap Experience Easier and Smoother
+        <Text fontSize={{ base: "3xl", md: "5xl" }} fontWeight={500}>
+          Making your Swap experience{" "}
+          <Mark bg="#ccd2fd" px={2}>
+            Easier
+          </Mark>{" "}
+          and{" "}
+          <Mark bg="#f4fea2" px={2}>
+            Smoother
+          </Mark>
         </Text>
         <Text mt={4} fontSize="lg">
           Basex was designed to onboard the next generation of protocols to the
