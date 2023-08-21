@@ -20,13 +20,15 @@ import { Hero } from "./Hero";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Container maxW="7xl">
-      <Header />
-    </Container>
-    <Container maxW="7xl">
-      <Hero />
-    </Container>
-    <Container maxW="full" mt={10} bg="#f7faff" py={4}>
+    <Box>
+      <Container maxW="7xl">
+        <Header />
+      </Container>
+      <Container maxW="7xl">
+        <Hero />
+      </Container>
+    </Box>
+    <Container maxW="full" bg="#f7faff" py={6}>
       <Container maxW="7xl">
         <Overview />
       </Container>

@@ -27,14 +27,14 @@ export const Features = () => {
             Swap your tokens with low slippage
           </Text>
           <Text mt={3}>
-            Basex's smart routing, deep liquidity, and latest AMM technology
+            BaseX's smart routing, deep liquidity, and latest AMM technology
             allow you to enjoy low slippage and high return when swapping one
             cryptocurrency for another.
           </Text>
           <Button
             mt={4}
             variant="unstyled"
-            color="blue.500"
+            color="#0049ff"
             _hover={{ color: "gray.800" }}
           >
             Swap Now
@@ -66,7 +66,7 @@ export const Features = () => {
           <Button
             mt={4}
             variant="unstyled"
-            color="blue.500"
+            color="#0049ff"
             _hover={{ color: "gray.800" }}
           >
             Start Staking
@@ -92,7 +92,7 @@ export const Features = () => {
             Liquidity layer for Base chain
           </Text>
           <Text mt={3}>
-            Basex was designed to onboard the next generation of protocols to
+            BaseX was designed to onboard the next generation of protocols to
             the Base chain by opening up a free market for BSX emissions.
             Protocols can bribe veBSX holders or acquire veBSX to redirect
             emissions to their pools, offering a flexible and capital efficient
@@ -101,7 +101,7 @@ export const Features = () => {
           <Button
             mt={4}
             variant="unstyled"
-            color="blue.500"
+            color="#0049ff"
             _hover={{ color: "gray.800" }}
           >
             Get Vote

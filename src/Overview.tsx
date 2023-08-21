@@ -2,7 +2,12 @@ import { SimpleGrid, Flex, Text } from "@chakra-ui/react";
 
 export const Overview = () => {
   return (
-    <SimpleGrid columns={{ base: 1, md: 3 }} px={{ base: 4, md: 8, lg: 12 }} gap={6}>
+    <SimpleGrid
+      columns={{ base: 1, md: 3 }}
+      px={{ base: 4, md: 8, lg: 12 }}
+      gap={6}
+     
+    >
       <Flex
         flexDirection="column"
         alignItems="center"
@@ -14,7 +19,7 @@ export const Overview = () => {
         <Text fontWeight="bold" fontSize="3xl">
           $47,566,457
         </Text>
-        <Text color="gray.600">30 Day Volume</Text>
+        <Text>30 Day Volume</Text>
       </Flex>
       <Flex
         flexDirection="column"
@@ -27,7 +32,7 @@ export const Overview = () => {
         <Text fontWeight="bold" fontSize="3xl">
           $3,401,603
         </Text>
-        <Text color="gray.600">Total Value Locked</Text>
+        <Text>Total Value Locked</Text>
       </Flex>
       <Flex
         flexDirection="column"
@@ -41,7 +46,7 @@ export const Overview = () => {
         <Text fontWeight="bold" fontSize="3xl">
           24,176
         </Text>
-        <Text color="gray.600">24h Trades</Text>
+        <Text>24h Trades</Text>
       </Flex>
     </SimpleGrid>
   );

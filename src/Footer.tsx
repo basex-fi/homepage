@@ -11,7 +11,9 @@ export const Footer = () => {
       px={{ base: 4, md: 8, lg: 12 }}
       py={{ base: 6, lg: 8 }}
     >
-      <Text>Copyright &copy; 2023 Basex.fi</Text>
+      <Text>
+        Copyright &copy; 2023 <Link href="https://basex.fi">BaseX.fi</Link>
+      </Text>
       <HStack spacing={6}>
         <Link href="" _hover={{ color: "blackAlpha.600" }}>
           <Icon as={AiFillGithub} boxSize={6} />

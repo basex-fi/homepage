@@ -13,7 +13,7 @@ export const Header = () => {
           <Image src="/logo512.png" alt="logo" w="full" />
         </Box>
         <Text fontWeight="bold" fontSize="3xl" ml={3}>
-          Basex
+          BaseX
         </Text>
       </HStack>
       <HStack spacing={10}>

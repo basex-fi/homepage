@@ -25,16 +25,16 @@ export const Hero = () => {
       >
         <Text fontSize={{ base: "4xl", md: "5xl" }} fontWeight={500}>
           Making your Swap experience{" "}
-          <Mark bg="#ccd2fd" px={2}>
+          <Mark bg="#0049ff" color="#fff" px={2}>
             Easier
           </Mark>{" "}
           and{" "}
-          <Mark bg="#f4fea2" px={2}>
+          <Mark bg="#e1f542" px={2}>
             Smoother
           </Mark>
         </Text>
         <Text mt={4} fontSize="lg">
-          Basex was designed to onboard the next generation of protocols to the
+          BaseX was designed to onboard the next generation of protocols to the
           Base chain, allow you to enjoy low slippage and high return.
         </Text>
         <JoinButton mt={8} variant="primary" size="lg">
