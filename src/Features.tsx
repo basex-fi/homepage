@@ -35,7 +35,7 @@ export const Features = () => {
             mt={4}
             variant="unstyled"
             color="#0049ff"
-            _hover={{ color: "gray.800" }}
+            _hover={{ textDecoration: "underline" }}
           >
             Swap Now
             <Icon as={HiOutlineArrowNarrowRight} ml={2} />
@@ -67,7 +67,7 @@ export const Features = () => {
             mt={4}
             variant="unstyled"
             color="#0049ff"
-            _hover={{ color: "gray.800" }}
+            _hover={{ textDecoration: "underline" }}
           >
             Start Staking
             <Icon as={HiOutlineArrowNarrowRight} ml={2} />
@@ -102,7 +102,7 @@ export const Features = () => {
             mt={4}
             variant="unstyled"
             color="#0049ff"
-            _hover={{ color: "gray.800" }}
+            _hover={{ textDecoration: "underline" }}
           >
             Get Vote
             <Icon as={HiOutlineArrowNarrowRight} ml={2} />

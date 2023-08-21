@@ -15,7 +15,7 @@ const themeConfig = {
           bg: "#212224",
           color: "white",
           _hover: {
-            bg: "#303235",
+            bg: "#3c3e42",
           },
         },
       },
