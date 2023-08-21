@@ -1,5 +1,7 @@
 import { Flex, Image, HStack, Box, Text, Button, Link } from "@chakra-ui/react";
 
+import logo from "./assets/logo.png";
+
 export const Header = () => {
   return (
     <Flex
@@ -10,7 +12,7 @@ export const Header = () => {
     >
       <HStack spacing={1}>
         <Box boxSize="38px">
-          <Image src="/logo512.png" alt="logo" w="full" />
+          <Image src={logo} alt="logo" w="full" />
         </Box>
         <Text fontWeight="bold" color="#0049ff" fontSize="3xl" ml={3}>
           BaseX

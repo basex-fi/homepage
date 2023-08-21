@@ -2,6 +2,10 @@ import { Flex, Box, Text, Icon, Button, Image } from "@chakra-ui/react";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
+import feature1 from "./assets/feature1.png";
+import feature2 from "./assets/feature2.png";
+import feature3 from "./assets/feature3.png";
+
 export const Features = () => {
   return (
     <Flex
@@ -20,7 +24,7 @@ export const Features = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Image src="/feature11.png" w="90%" />
+          <Image src={feature1} w="90%" />
         </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">
@@ -53,7 +57,7 @@ export const Features = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Image src="/feature12.png" w="90%" />
+          <Image src={feature2} w="90%" />
         </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">
@@ -85,7 +89,7 @@ export const Features = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Image src="/feature13.png" w="90%" />
+          <Image src={feature3} w="90%" />
         </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">

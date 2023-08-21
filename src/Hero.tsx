@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
+import hero from "./assets/hero.png";
+
 const JoinButton = styled(Button)`
   svg {
     transition: 0.6s ease;
@@ -49,7 +51,7 @@ export const Hero = () => {
         w="51%"
         ml={20}
       >
-        <Image src="/hero1.png" w="full" />
+        <Image src={hero} w="full" />
       </Flex>
     </Flex>
   );
