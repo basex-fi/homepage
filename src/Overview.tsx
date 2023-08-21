@@ -6,7 +6,6 @@ export const Overview = () => {
       columns={{ base: 1, md: 3 }}
       px={{ base: 4, md: 8, lg: 12 }}
       gap={6}
-     
     >
       <Flex
         flexDirection="column"
@@ -14,7 +13,7 @@ export const Overview = () => {
         borderRadius="lg"
         borderWidth={0}
         borderColor="rgb(209, 222, 230)"
-        p={8}
+        p={{ base: 4, md: 8 }}
       >
         <Text fontWeight="bold" fontSize="3xl">
           $47,566,457
@@ -27,7 +26,7 @@ export const Overview = () => {
         borderRadius="lg"
         borderWidth={0}
         borderColor="rgb(209, 222, 230)"
-        p={8}
+        p={{ base: 4, md: 8 }}
       >
         <Text fontWeight="bold" fontSize="3xl">
           $3,401,603
@@ -40,7 +39,7 @@ export const Overview = () => {
         borderRadius="lg"
         borderWidth={0}
         borderColor="rgb(209, 222, 230)"
-        p={8}
+        p={{ base: 4, md: 8 }}
         px={{ base: 8, lg: 12 }}
       >
         <Text fontWeight="bold" fontSize="3xl">
