@@ -20,7 +20,7 @@ export const Features = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Image src="/feature1.png" w="90%" />
+          <Image src="/feature11.png" w="90%" />
         </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">
@@ -53,7 +53,7 @@ export const Features = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Image src="/feature2.png" w="90%" />
+          <Image src="/feature12.png" w="90%" />
         </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">
@@ -85,7 +85,7 @@ export const Features = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Image src="/feature3.png" w="90%" />
+          <Image src="/feature13.png" w="90%" />
         </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">

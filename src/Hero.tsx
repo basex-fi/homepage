@@ -49,7 +49,7 @@ export const Hero = () => {
         w="51%"
         ml={20}
       >
-        <Image src="/hero.png" w="full" />
+        <Image src="/hero1.png" w="full" />
       </Flex>
     </Flex>
   );
