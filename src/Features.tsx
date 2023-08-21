@@ -15,9 +15,13 @@ export const Features = () => {
         justifyContent="center"
         flexDirection={{ base: "column", md: "row" }}
       >
-        <Box w={{ base: "full", md: "50%" }}>
-          <Image src="/feature1.png" w="full" />
-        </Box>
+        <Flex
+          w={{ base: "full", md: "50%" }}
+          justifyContent="center"
+          alignItems="center"
+        >
+          <Image src="/feature1.png" w="90%" />
+        </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">
             Swap your tokens with low slippage
@@ -30,7 +34,7 @@ export const Features = () => {
           <Button
             mt={4}
             variant="unstyled"
-            color="gray.500"
+            color="blue.500"
             _hover={{ color: "gray.800" }}
           >
             Swap Now
@@ -44,9 +48,13 @@ export const Features = () => {
         justifyContent="center"
         flexDirection={{ base: "column", md: "row-reverse" }}
       >
-        <Box w={{ base: "full", md: "50%" }}>
-          <Image src="/feature2.png" w="full" />
-        </Box>
+        <Flex
+          w={{ base: "full", md: "50%" }}
+          justifyContent="center"
+          alignItems="center"
+        >
+          <Image src="/feature2.png" w="90%" />
+        </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">
             Stake and earn passive income
@@ -58,7 +66,7 @@ export const Features = () => {
           <Button
             mt={4}
             variant="unstyled"
-            color="gray.500"
+            color="blue.500"
             _hover={{ color: "gray.800" }}
           >
             Start Staking
@@ -72,9 +80,13 @@ export const Features = () => {
         justifyContent="center"
         flexDirection={{ base: "column", md: "row" }}
       >
-        <Box w={{ base: "full", md: "50%" }}>
-          <Image src="/feature3.png" w="full" />
-        </Box>
+        <Flex
+          w={{ base: "full", md: "50%" }}
+          justifyContent="center"
+          alignItems="center"
+        >
+          <Image src="/feature3.png" w="90%" />
+        </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">
             Liquidity layer for Base chain
@@ -89,7 +101,7 @@ export const Features = () => {
           <Button
             mt={4}
             variant="unstyled"
-            color="gray.500"
+            color="blue.500"
             _hover={{ color: "gray.800" }}
           >
             Get Vote
