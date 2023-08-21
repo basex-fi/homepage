@@ -12,7 +12,7 @@ export const Header = () => {
         <Box boxSize="38px">
           <Image src="/logo512.png" alt="logo" w="full" />
         </Box>
-        <Text fontWeight="bold" fontSize="3xl" ml={3}>
+        <Text fontWeight="bold" color="#0049ff" fontSize="3xl" ml={3}>
           BaseX
         </Text>
       </HStack>

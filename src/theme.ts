@@ -9,13 +9,14 @@ const themeConfig = {
     Button: {
       variants: {
         outline: {
-          borderColor: "black",
+          borderColor: "#0049ff",
+          color: "#0049ff"
         },
         primary: {
-          bg: "#212224",
+          bg: "#0049ff",
           color: "white",
           _hover: {
-            bg: "#3c3e42",
+            bg: "#4176fb",
           },
         },
       },
