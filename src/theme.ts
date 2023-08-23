@@ -7,10 +7,16 @@ const themeConfig = {
   },
   components: {
     Button: {
+      baseStyle: {
+        borderRadius: "lg",
+        _focus: {
+          boxShadow: "none",
+        },
+      },
       variants: {
         outline: {
           borderColor: "#0049ff",
-          color: "#0049ff"
+          color: "#0049ff",
         },
         primary: {
           bg: "#0049ff",
