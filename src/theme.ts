@@ -8,7 +8,7 @@ const themeConfig = {
   components: {
     Button: {
       baseStyle: {
-        borderRadius: "lg",
+        borderRadius: "xl",
         _focus: {
           boxShadow: "none",
         },
