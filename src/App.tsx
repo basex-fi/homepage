@@ -46,9 +46,9 @@ export const App = () => (
         >
           <VStack alignItems="flex-start">
             <Text fontSize="3xl" fontWeight="semibold">
-              Start Now
+            Begin Now
             </Text>
-            <Text>Start build your passive income streams right away.</Text>
+            <Text>Start building your passive income streams right away.</Text>
           </VStack>
           <Button variant="primary">
             Get Started

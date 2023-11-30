@@ -26,18 +26,17 @@ export const Hero = () => {
         flex={1}
       >
         <Text fontSize={{ base: "4xl", md: "5xl" }} fontWeight={500}>
-          Making your Swap experience{" "}
+        Streamlining Your DeFi Journey{" "}
           <Mark bg="#0049ff" color="#fff" px={2}>
-            Easier
+          Effortless
           </Mark>{" "}
           and{" "}
           <Mark bg="#e1f542" px={2}>
-            Smoother
+          Efficient
           </Mark>
         </Text>
         <Text mt={4} fontSize="lg">
-          BaseX was designed to onboard the next generation of protocols to the
-          Base chain, allow you to enjoy low slippage and high return.
+        Welcome to BaseX, your gateway to seamless DeFi experiences with low-cost, low-slippage swaps powered by Coinbase's Base Chain, UniSwap V3 CLMM and ve(3,3) model.
         </Text>
         <JoinButton mt={8} variant="primary" size="lg">
           Get Started
