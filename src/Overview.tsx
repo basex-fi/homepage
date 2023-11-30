@@ -16,7 +16,7 @@ export const Overview = () => {
         p={{ base: 4, md: 8 }}
       >
         <Text fontWeight="bold" fontSize="3xl">
-          $47,566,457
+          -
         </Text>
         <Text>30 Day Volume</Text>
       </Flex>
@@ -29,7 +29,7 @@ export const Overview = () => {
         p={{ base: 4, md: 8 }}
       >
         <Text fontWeight="bold" fontSize="3xl">
-          $3,401,603
+          -
         </Text>
         <Text>Total Value Locked</Text>
       </Flex>
@@ -43,7 +43,7 @@ export const Overview = () => {
         px={{ base: 8, lg: 12 }}
       >
         <Text fontWeight="bold" fontSize="3xl">
-          24,176
+          -
         </Text>
         <Text>24h Trades</Text>
       </Flex>

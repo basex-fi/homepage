@@ -28,12 +28,10 @@ export const Features = () => {
         </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">
-            Swap your tokens with low slippage
+          Enjoy Low-Cost and Low-Slippage Swaps
           </Text>
           <Text mt={3}>
-            BaseX's smart routing, deep liquidity, and latest AMM technology
-            allow you to enjoy low slippage and high return when swapping one
-            cryptocurrency for another.
+          BaseX leverages the scalability of Base Chain, Coinbase's L2 network built on Ethereum, to reduce gas costs and increase throughput. With the power of UniSwap V3 CLMM and our liquidity management partners, you can swap tokens with less slippage and more efficiency.
           </Text>
           <Button
             mt={4}
@@ -61,11 +59,10 @@ export const Features = () => {
         </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">
-            Stake and earn passive income
+          Earn Passive Income by Staking
           </Text>
           <Text mt={3}>
-            Stake your assets for instant passive income streams. No deposit or
-            withdrawal fees. You have full control over your funds.
+          BaseX rewards you for locking your BXT tokens for up to two years, giving you voting rights and a share of the trading fees. Your veBXT tokens also receive more BXT as rewards via rebasing. You can also customize the price range of your liquidity, increasing your returns and earning more fees, or provide liquidity by gauge to earn BXT emission.
           </Text>
           <Button
             mt={4}
@@ -93,14 +90,10 @@ export const Features = () => {
         </Flex>
         <Box w={{ base: "full", md: "50%" }}>
           <Text fontSize="2xl" fontWeight="semibold">
-            Liquidity layer for Base chain
+          Boost Liquidity for Base Chain
           </Text>
           <Text mt={3}>
-            BaseX was designed to onboard the next generation of protocols to
-            the Base chain by opening up a free market for BSX emissions.
-            Protocols can bribe veBSX holders or acquire veBSX to redirect
-            emissions to their pools, offering a flexible and capital efficient
-            solution to bootstrap and scale liquidity.
+          BaseX enables easy access and movement of users and assets from Ethereum L1, Coinbase, and other EVM chains. By utilizing the ve (3,3) mechanism, BaseX can create a positive feedback loop that increases the liquidity and value of the protocols on Base Chain.
           </Text>
           <Button
             mt={4}
