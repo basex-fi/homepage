@@ -7,6 +7,7 @@ import {
   Text,
   Icon,
   Button,
+  Link,
 } from "@chakra-ui/react";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
@@ -46,14 +47,16 @@ export const App = () => (
         >
           <VStack alignItems="flex-start">
             <Text fontSize="3xl" fontWeight="semibold">
-            Begin Now
+              Begin Now
             </Text>
             <Text>Start building your passive income streams right away.</Text>
           </VStack>
-          <Button variant="primary">
-            Get Started
-            <Icon as={HiOutlineArrowNarrowRight} ml={2} />
-          </Button>
+          <Link href="https://app.basex.fi" target="_bank">
+            <Button variant="primary">
+              Get Started
+              <Icon as={HiOutlineArrowNarrowRight} ml={2} />
+            </Button>
+          </Link>
         </Flex>
       </Box>
       <Box mt={8}>

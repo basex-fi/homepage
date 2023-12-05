@@ -20,10 +20,16 @@ export const Header = () => {
       </HStack>
       <HStack spacing={10}>
         <HStack spacing={10} display={{ base: "none", md: "flex" }}>
-          <Link>Blog</Link>
-          <Link>Docs</Link>
+          <Link href="https://medium.com/@basex_fi" target="_bank">
+            Blog
+          </Link>
+          <Link href="https://basex.gitbook.io/docs" target="_blank">
+            Docs
+          </Link>
         </HStack>
-        <Button variant="outline">Launch App</Button>
+        <Link href="https://app.basex.fi" target="_bank">
+          <Button variant="outline">Launch App</Button>
+        </Link>
       </HStack>
     </Flex>
   );

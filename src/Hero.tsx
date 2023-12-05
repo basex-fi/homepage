@@ -1,4 +1,13 @@
-import { Flex, Box, Image, Text, Button, Icon, Mark } from "@chakra-ui/react";
+import {
+  Flex,
+  Box,
+  Image,
+  Text,
+  Button,
+  Icon,
+  Mark,
+  Link,
+} from "@chakra-ui/react";
 import styled from "styled-components";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
@@ -26,22 +35,26 @@ export const Hero = () => {
         flex={1}
       >
         <Text fontSize={{ base: "4xl", md: "5xl" }} fontWeight={500}>
-        Streamlining Your DeFi Journey{" "}
+          Streamlining Your DeFi Journey{" "}
           <Mark bg="#0049ff" color="#fff" px={2}>
-          Effortless
+            Effortless
           </Mark>{" "}
           and{" "}
           <Mark bg="#e1f542" px={2}>
-          Efficient
+            Efficient
           </Mark>
         </Text>
         <Text mt={4} fontSize="lg">
-        Welcome to BaseX, your gateway to seamless DeFi experiences with low-cost, low-slippage swaps powered by Coinbase's Base Chain, UniSwap V3 CLMM and ve(3,3) model.
+          Welcome to BaseX, your gateway to seamless DeFi experiences with
+          low-cost, low-slippage swaps powered by Coinbase's Base Chain, UniSwap
+          V3 CLMM and ve(3,3) model.
         </Text>
-        <JoinButton mt={8} variant="primary" size="lg">
-          Get Started
-          <Icon as={HiOutlineArrowNarrowRight} ml={2} />
-        </JoinButton>
+        <Link href="https://app.basex.fi" target="_bank">
+          <JoinButton mt={8} variant="primary" size="lg">
+            Get Started
+            <Icon as={HiOutlineArrowNarrowRight} ml={2} />
+          </JoinButton>
+        </Link>
       </Box>
       <Flex
         h="full"

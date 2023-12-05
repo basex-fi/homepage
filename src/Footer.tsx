@@ -15,7 +15,11 @@ export const Footer = () => {
         Copyright &copy; 2023 <Link href="https://basex.fi">BaseX.fi</Link>
       </Text>
       <HStack spacing={6}>
-        <Link href="" _hover={{ color: "blackAlpha.600" }}>
+        <Link
+          href="https://github.com/basex-fi"
+          target="_bank"
+          _hover={{ color: "blackAlpha.600" }}
+        >
           <Icon as={AiFillGithub} boxSize={6} />
         </Link>
         <Link
