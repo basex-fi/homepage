@@ -30,7 +30,7 @@ export const Footer = () => {
           <Icon as={AiFillTwitterCircle} boxSize={6} />
         </Link>
         <Link
-          href="https://discord.gg/SdSxUhuF"
+          href="https://discord.com/invite/63QCJtzXRk"
           target="_bank"
           _hover={{ color: "blackAlpha.600" }}
         >
