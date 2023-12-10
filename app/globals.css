@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 47.4% 11.2%;
+
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  --primary: 222 100% 50%;
+  --primary-foreground: 0 0% 100%;
+
+  --border: 214.3 31.8% 93%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 240 31% 12%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --primary: 222 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --border: 216 34% 16%;
+  }
+}
+
+body {
+  color: hsl(var(--foreground));
+  background: hsl(var(--background));
+}
