@@ -9,7 +9,7 @@ export const { getClient } = registerApolloClient(() => {
       uri: "https://api.studio.thegraph.com/query/54040/basex/version/latest",
       // you can disable result caching here if you want to
       // (this does not work if you are rendering your page with `export const dynamic = "force-static"`)
-      fetchOptions: { cache: "force-cache", next: { revalidate: 3600 } },
+      fetchOptions: { next: { revalidate: 3600 } },
     }),
   });
 });
