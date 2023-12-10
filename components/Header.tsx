@@ -23,7 +23,7 @@ export default function Header() {
       <div className="container max-w-6xl flex justify-between py-4 md:py-6 lg:py-8">
         <div className="flex items-center">
           <Image src="/logo.png" width={36} height={36} alt="logo" />
-          <h1 className="text-2xl font-bold ml-2 text-primary">BaseX</h1>
+          <h1 className="text-2xl font-bold ml-4 text-primary">BaseX</h1>
         </div>
         <div className="flex gap-6 items-center">
           <div className="gap-6 hidden md:flex">
