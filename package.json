@@ -12,6 +12,7 @@
     "@apollo/client": "^3.8.8",
     "@apollo/experimental-nextjs-app-support": "^0.5.2",
     "@nextui-org/react": "^2.2.9",
+    "@vercel/analytics": "^1.1.1",
     "framer-motion": "^10.16.16",
     "graphql": "^16.8.1",
     "lucide-react": "^0.294.0",
